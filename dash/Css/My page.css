@@ -1,0 +1,315 @@
+.headng_of_page{
+    width: 100%;
+    height: 15px;
+        padding: 6px;
+    line-height: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    background: url(../Images/grey.png) repeat-x 50% 50%;
+   
+    border: 1px solid #8E846B;
+}
+.work_area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.My_info{
+     width: 70%;
+    height: 515px;
+  padding-top: 10px;
+/*    background-color: indigo;*/
+    overflow-x: hidden;
+}
+.my_info_area{
+    width: 99%;
+    margin-left: 10px;
+    height: 800px;
+    background-color: white;
+    z-index: -1000;
+    border-top: 1px solid #fece2f;
+/*    padding: 10px 20px;*/
+    
+}
+.my_info_area .gs{
+    width: 100%;
+    background-color:#fbf4df;
+    padding: 5px;
+    color: #666;
+}
+.my_info_area table{
+    padding: 0px 10px;
+}
+.my_info_area td{
+        border-right: 1px dotted #fece2f;
+    border-bottom: 1px dotted #fece2f;
+    width: 90%;
+/*    padding: 3px;*/
+
+}
+.my_info_area td .text{
+    width: 99%;
+    border: none;
+}
+
+.dc{
+    background-color: #efefef;
+}
+
+th{
+    width: 7000px;
+}
+.datagrid{
+    float: left;
+    width: 400px;
+}
+.datagrid_2{
+    float: right;
+    width: 425px;
+}
+.My_data{
+     width: 30%;
+    height: 554px;
+    border-left: 5px solid #aaa;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 70%;
+}
+.setting_info{
+    width: 100%;
+    height: auto;
+    
+}
+.footer_btns{
+    width: 100%;
+    height: 50px;
+/*    background-color: white;*/
+    border-top: 1px solid black;
+}
+.s_c_btn{
+    padding:10px 10px;
+}
+.cancel_ac{
+/*    margin-left: 5px;*/
+}
+.save_ac,.cancel_ac{
+    padding-right: 5px;
+    border: 1px solid transparent;
+    color: #444;
+        font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    zoom: 1;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+
+    }
+.save_ac_btn,.cancel_ac_btn{
+    
+     font-size: 11px;
+    padding-left: 5px;
+/*        padding: 4px 0px 4px 18px;*/
+    padding: 5px 10px;
+    line-height: 16px;
+    height: 16px;
+    border-radius: 8px;
+        display: inline-block;
+    cursor: pointer;
+    background: url(../Images/dark.png) repeat-x 50% 50%;
+        border: 1px solid #D19405;
+}
+.save_ac_btn_icon{
+     padding-left: 20px;
+    font-size: 13px;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+/*    padding: 0px;*/
+    background: url(../Images/filesave.png) no-repeat;
+}
+.cancel_ac_btn_icon{
+     padding-left: 20px;
+    font-size: 13px;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+/*    padding: 0px;*/
+    background: url(../Images/cancel.png) no-repeat;
+}
+.save_ac_btn:hover,.cancel_ac_btn:hover{
+    background: url(../Images/light.png) repeat-x 50% 50%;
+}
+.bar{
+    width: 100%;
+    height: 20px;
+    background: url(../Images/light.png) repeat-x 50% 50%;
+    border-bottom: 1px solid #8E846B;
+    cursor: pointer;
+    padding: 6px;
+    line-height: 20px;
+}
+.icon_pancil{
+    padding-left: 20px;
+    font-size: 13px;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+/*    padding: 0px;*/
+    background: url(../Images/pencil.png) no-repeat;
+}
+tr:hover,td:hover,.gs:hover{
+     background: url(../Images/dark.png) repeat-x 50% 50%;
+}
+
+.setting_area{
+    width: 100%;
+    height: 350px;
+/*    background: url(images/ui-bg_gloss-wave_60_fece2f_500x100.png) repeat-x 50% 50%;*/
+    border-bottom: 1px solid #8E846B;
+    
+    padding: 6px;
+    line-height: 20px;
+    display: none;
+}
+.border_bar{
+    border-bottom: 1px dotted #fece2f;
+    border-top: 1px dotted #fece2f;
+    padding: 4px;
+}
+.guide_view{
+     width: 100%;
+    height: 200px;
+    padding: 6px;
+    line-height: 20px;
+    display: none;
+}
+.refferal_view{
+width: 100%;
+    height: 200px;
+    padding: 6px;
+    line-height: 20px;
+    display: none;
+    
+}
+
+.reffer_panel_windows {
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    width: 700px;
+    background-color: #fff;
+    border: 1px solid #8E846B;
+    border-radius: 5px;
+    height: 105px;
+    z-index: 10000000;
+    padding: 5px;
+    border: 1px solid #8E846B;
+    border-radius: 5px;
+    display: none;
+    background: url(..Images/dark.png) repeat 50% 50%;
+}
+.reffer_box {
+    width: 697px;
+    height: 70px;
+    background-color: #fff;
+    margin-top: 10px;
+    border: 1px solid #8E846B;
+}
+.reffer_code {
+    width: 100%;
+    height: 30px;
+    background-color: #feeebd;
+}
+.reffer_box a {
+    color: #444;
+    background: url(../Images/dark.png) repeat-x 50% 50%;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    zoom: 1;
+    height: 24px;
+    padding: 0px 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #D19405;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.reffer_code input {
+    height: auto;
+    padding: 5px 0px 0px 0px;
+    margin: 0 0 0px 0;
+    border: 1px dotted #ccc;
+    width: 99%;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.reffer_box a span {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.other_view{
+     width: 100%;
+    height: 200px;
+    padding: 6px;
+    line-height: 20px;
+    display: none;
+}
+.remove_ac_btn_icon{
+        padding-left: 20px;
+    font-size: 13px;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    /* padding: 0px; */
+    background: url(../Images/edit_remove.png) no-repeat;
+}
+.create_key_box{
+     position: absolute;
+    top: 270px;
+    left: 400px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #8E846B;
+    border-radius: 5px;
+    height: 185px;
+    z-index: 10000000;
+    padding: 5px;
+    border: 1px solid #8E846B;
+    border-radius: 5px;
+    display: none;
+    background: url(../Images/dark.png) repeat 50% 50%;
+
+}
+.key_area{
+     width: 400px;
+    height: 155px;
+    background-color: #fbf4df;
+    margin-top: 10px;
+    border: 1px solid #8E846B;
+    
+}
+#close_key_box{
+       color: #444;
+    background: url(../Images/dark.png) repeat-x 50% 50%;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    zoom: 1;
+    height: 24px;
+    padding: 0px 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #D19405;
+    margin-left: 300px;
+/*    margin-top: 10px;*/
+
+}

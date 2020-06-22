@@ -1,0 +1,13 @@
+.newsbar{width: 100%;height: auto;background-color: ;border-bottom: 2px solid grey;display: flex;flex-direction: row;}
+
+.add_news_btn{width: 100%; text-align: right; padding: 10px; box-sizing: border-box;} .add_news_btn a {text-align: right; color: black; font-weight: 800;}
+
+.news_sno{width: 10%; height: auto; background-color: ;} .news_sno span{line-height: 100px; margin-left: 10px;}
+
+.news_heading{width: 60%; height: auto;background-color: ;}
+
+.news_date{width: 10%; height: auto; background-color: ; line-height: 100px;}
+
+.news_edit{width: 10%; height: auto; background-color: ;}.news_edit a{line-height: 100px; font-size: 18px;}
+
+.news_del{width: 10%; height: auto; background-color:;}.news_del a{line-height: 100px; font-size: 18px;}

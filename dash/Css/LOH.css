@@ -1,0 +1,60 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #ffeebb;
+    color: #000;
+    font-size: 12px;
+    font-family: Arial;
+    line-height: 14px;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+.body{margin: 53px 0px; padding: 0; width: 100%; height: 1000px; background-color: #feeebd;  box-sizing: border-box;} 
+.headng_of_page{
+    width: 100%;
+    height: 15px;
+        padding: 6px;
+    line-height: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    background: url(../Images/grey.png) repeat-x 50% 50%;
+   
+    border: 1px solid #8E846B;
+}
+.work_area{
+    width: 100%;
+    height: 100%;
+/*
+    display: flex;
+    flex-direction: row;
+*/
+}
+#My_massege_LOH{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 200px;
+}
+#My_massege_LOH td{
+    padding-bottom: 100px;
+    padding-top: 70px;
+    background: url(../Images/konvert.png) no-repeat top right;
+}
+
+.letter{
+    background: #ffffff url(../Images/listok-middle.png);
+    width: 822px;
+    margin-right: 200px;
+}
+.letter_top{
+    background: url(../Images/listok-top.png) top no-repeat;
+}
+.letter_bottom{
+    background: url(../Images/listok-bottom.png) bottom no-repeat;
+    padding: 30px;
+    min-height: 322px;
+    line-height: 26px;
+    font-size: 14px;
+}

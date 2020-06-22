@@ -1,0 +1,46 @@
+/*Home Page*/
+.font_page{width: 100%; height: 1200px;}
+
+
+/*Message Box*/
+.msg_box{width: 360px;height: 370px;border: 5px solid #2E962E;box-sizing: border-box;padding: 20px;background: #FFFFFF;border-radius: 10px;position: absolute;top: 36%;right: 2%; font-family: monospace; overflow: hidden;}
+
+.box_heading{background-color: #2E962E;color: #FFFFFF;margin: -20px -20px 20px -20px;padding: 20px 10px;text-transform: uppercase;font-size: 20px;
+               text-align: center; font-family: sans-serif;}
+
+/*Home page*/
+.home_page{width: 100%; height: 600px;display: flex; flex-direction: row;padding: 0px 0px 0px 255px;box-sizing: border-box;background-image: url(../Images/mainbg.jpg);background-repeat: no-repeat;background-position: bottom;background-color: #00247a;z-index: -100;}
+
+
+/*Attension msg*/
+.aten_msg{width: 420px; height: auto; box-sizing: border-box; padding: 10px 0px 10px 30px;}
+.h_aten{color: white; text-transform: uppercase;font-family: sans-serif; font-size: 40px;box-sizing: border-box; padding: 10px 0px; text-align: center;}
+.w_msg{color: white;font-size: 23px;font-family: sans-serif;line-height: 35px;}
+.w_msg span{display: inline-block;}
+.site{background-color: red;}.site_2{padding-left: 120px; box-sizing: border-box;}
+.matter{ width: 370px; font-size: 18px;font-family: sans-serif;margin-top: 0px;margin: 0px;padding: 0px;text-align: justify; color: white; line-height: 25px;font-weight: 400;}
+
+/*How TO BTN*/
+.con_how{width: 349px;height: 109px;background: linear-gradient(to bottom, #ff523e 0%, #e80e00 14%, #e80e00 85%, #ff523e 100%);margin-top: 80px;border-radius: 5px;cursor: pointer;}
+.con_how:hover{background: red;}
+
+.how_to{display: block;text-transform: uppercase;color: #FFFFFF;text-decoration: none;text-align: center;padding: 20px 100px;font-size: 17px; font-family: sans-serif;}
+
+.ques{display: block;width: 75px;height: 87px;position: absolute;left: 330px;top: 620px;background-image: url(../Images/ques.png);background-repeat: no-repeat;}
+
+
+.glob{width: 301px;height: 470px;   background: url(../Images/global.png)bottom no-repeat;margin-top: 130px;margin-left: -20px; }
+
+/*Sideshow style*/
+.sideshow{max-width: 100%; background: #00AAF2; height: 200px; margin-top: 6px;}
+/*end*/
+
+.space{max-width: 100%; background: white;height: 60px;}
+
+/*Wintter*/
+.wintter{max-width: 100%; height: auto;box-sizing: border-box; background: #e0e0e0;text-align: center;padding: 25px 0;border-top: 3px solid #cccccc;border-bottom: 3px solid #e5e5e5;}
+
+.wintter img{width: 220px; margin:10px 10px 10px 13px; border-radius: 10px;}
+
+
+

@@ -1,0 +1,56 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;background-color: #feeebd;}
+
+.body{margin: 53px 0px; padding: 0px 0px 10px 0px; width: 100%; height: auto; background-color: #feeebd;  box-sizing: border-box;} 
+
+.title_bar{padding: 3px 6px; box-sizing: border-box;  background: url(../Images/grey.png) repeat 50% 50%;}
+
+.content_area{width: 100%; height: 530px; background-color: #feeebd; }
+
+table th,td{text-align: center;}
+table th{border-right: 1px dotted #fece2f; background: #fff9e5; font-size: 14px;    border-bottom: 1px dotted #fece2f;
+	border-top: 1px dotted #fff; padding: 7px; box-sizing: border-box;}
+
+table td{border-right: 1px dotted #fece2f;border-bottom: 1px dotted #fece2f;font-size: 14px;padding: 7px; box-sizing: border-box;}	
+
+.hidebar{width: 200px;height: 630px; background: #feeebd;position: absolute;left: 0px;top:53px;
+	border-right: 3px solid grey;clear: left;display: none;}
+
+.hide_div{float: right; text-decoration: none; font-size: 17px; box-sizing: border-box;color: white; }
+
+/*.open_hide{width: 30px;height: 630px;background: #817865;position: absolute;left: 0px;top:53px; }*/
+
+
+
+ 	/*Pagination*/
+ 	.pagination ul{list-style: none;}
+ 	.pagination ul li{margin: 0;padding: 0 5px;float: left;list-style-type: none;
+    background: url(../Images/pagi_seprator.png) no-repeat right top;height: 24px;vertical-align: middle;}
+
+    .pagination ul li a {width: 28px;height: 26px;display: inline-block;}
+    .pagination ul li a.pleftfull span {background: url(../Images/pagi_left.png) no-repeat center center;
+    width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+    .pagination ul li a.pleft span {
+    background: url(../Images/pagi_left.png) no-repeat center center;
+width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+.pagination ul .last {margin: 0;padding: 0 5px;float: left;list-style-type: none;background: none;}
+
+.pagination ul li a.prightfull span {
+    background: url(../Images/pagi_right.png) no-repeat center center;
+   width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+ .pagination ul li a.pright span {
+    background: url(../Images/pagi_right.png) no-repeat center center;
+    width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}  
+
+    .pagination a.yellow {background: #f9d765;margin-left: 180px;padding: 6px;text-decoration: none;
+    	color: #000;border: 2px solid #c98f06;border-radius: 10px;}
+
+   /*end 	*/
+
+   /*Tree*/
+   .member_tree{font-size: 12px;margin: 0;padding:10px;list-style-type: none;}
+   .tree_node{height: 18px;white-space: nowrap;cursor: pointer;}
+   .icon_m{background: url(../Images/mmb-simple.png) no-repeat;display: inline-block;width: 50px;height: 18px;}
+   .member_number{margin-left: 20px;}

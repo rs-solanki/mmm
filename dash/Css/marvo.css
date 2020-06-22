@@ -1,0 +1,61 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;background-color: #feeebd;}
+
+.body{margin: 53px 0px; padding: 0; width: 100%; height: auto; background-color: #feeebd;  box-sizing: border-box;} 
+
+.tool_bar{ box-sizing: border-box;    background: #efefef;padding: 10px 10px;border-bottom: 1px solid #ccc; height: auto;}
+
+ .btn{text-decoration: none;color: black;padding: 5px 20px;box-sizing: border-box;border-radius: 5px; font-size: 13px;
+    height: 24px;
+}
+
+.info_icon{background: url(../Images/info.png) no-repeat left 2px; margin: 0;padding: 2px 0 0 21px;} 
+.avail_icon{background: url(../Images/money.png) no-repeat left 2px; margin: 0;padding: 2px 0 0 21px;} 
+.avail:hover{background: url(../Images/dark.png)  repeat-x left center; border: 1px solid #c98f06; border-radius: 3px;}
+.heading_table th{
+          background-color: #faf5e8;
+    border-bottom: 1px solid #f5c525;
+    border-right: 1px dotted #f5c525;
+    margin: -10px;
+        border-collapse:collapse;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+.heading_table td{border: 1px dotted gold;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;}
+
+
+.future_table th{    background: #FEEEBD;font-size: 13px;}
+
+.future_table td{border: 1px dotted gold;font-size: 13px;background: white;text-align: center;}
+.future_close{text-decoration: none;float: right;padding-right: 10px; color: #FEEEBD;}
+
+    .mask{position: absolute;background: #00000080; width: 100%; height: 200%; z-index: 10000;display: none;top: 0;}
+
+
+    .ph_pop{ height: auto; background: url(../Images/grey.png) no-repeat 50% 50%; margin: 15% auto; z-index: 100002;
+     top: 80px; left: 330px; border-radius: 10px;padding: 6px;box-sizing: border-box; display:none;}
+     .ph_title{width: 100%;margin-bottom: 5px; font-weight: 700; margin-left: 6px;}
+     .ph_title_icon{    padding: 0px 0px 0px 20px;background: url(../Images/filesave.png) no-repeat scroll 2px 2px;color: white; 
+        font-size: 13px; box-sizing: border-box;}
+        .chat_icon{padding: 0px 0px 0px 20px;background: url(../Images/info.png) no-repeat scroll 2px 2px;color: white; 
+        font-size: 13px; box-sizing: border-box;}
+     .ph_content{ height: auto;    background: #f6e8bc url(../Images/smlpopconbgtop.jpg) repeat-x left top; 
+        box-sizing: border-box;}
+        .text{font-size: 14px;}
+.ph_btns{margin: 10px;}
+        .ph_can,.ph_next,.ph_back{text-decoration: none; color: black; padding: 5px 20px;box-sizing: 
+            border-box;border-radius: 5px;    border: 1px solid #D19405;    
+            background: url(../Images/dark.png) repeat-x 50% 50%; }
+            .ph_can_icon{background: url(../Images/cancal.png) no-repeat left 3px;    margin: 0;padding: 2px 0 0 21px; }
+
+.ph_next_icon{background: url(../Images/ok.png) no-repeat left 3px;   margin: 0;padding: 2px 0 0 21px; }    
+.ph_back_icon{background: url(../Images/back.png) no-repeat left 3px;   margin: 0;padding: 2px 0 0 21px;}   
+.ph_btns{margin: 20px 0px;} 
+/*.ph_content{padding-left: 30px; height: auto;}*/

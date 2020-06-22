@@ -1,0 +1,68 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;}
+
+.body{margin: 53px 0px; padding: 0; width: 100%; height: 1000px; background-color: #feeebd;  box-sizing: border-box;} 
+
+.title_bar{padding: 3px 6px; box-sizing: border-box;  background: url(../Images/grey.png) repeat 50% 50%;}
+.tool_bar{ box-sizing: border-box;    background: #efefef;padding: 10px 10px;border-bottom: 1px solid #ccc; height: auto;}
+
+/*BTNS*/
+ .btn{text-decoration: none;color: black;padding: 5px 20px;box-sizing: border-box;border-radius: 5px; font-size: 17px;
+ 	height: 24px;
+}
+.btn:hover{background: url(../Images/dark.png) repeat-x 50% 50%;border: 1px solid #D19405;text-decoration: none;
+	color: black;padding: 5px 20px;box-sizing: border-box;border-radius: 5px; font-size: 17px;height: 24px;}
+
+.add_icon{background: url(../Images/edit_add.png) no-repeat left 3px; margin: 0;padding: 2px 0 0 21px;}	
+.edit_icon{background: url(../Images/pencil.png) no-repeat left 3px; margin: 0;padding: 2px 0 0 21px;}
+.del_icon{background: url(../Images/edit_remove.png) no-repeat left 3px; margin: 0;padding: 2px 0 0 21px;}
+
+/*Body Content*/
+.body_content{width: 100%; height: 100%;}
+.ac_view th{border-right: 1px dotted #fece2f;font-size: 15px;
+    font-weight: normal;background: #fff9e5;border-bottom: 1px dotted #fece2f;border-top: 1px dotted #fff;
+}
+
+.ac_view td{    border-right: 1px dotted #fece2f;
+    font-size: 15px;
+    font-weight: normal;
+    /*background: #fff9e5 url(../Images/dark.png) repeat-x 50% 50%;*/
+    background: white;
+    border-bottom: 1px dotted #fece2f;
+    border-top: 1px dotted #fff;
+    text-align: center;
+}
+
+
+
+/*Account Box*/
+.ac_content{}
+
+.btns{background: url(../Images/dark.png) repeat-x 50% 50%;border: 1px solid #D19405;text-decoration: none;
+	color: black;padding: 5px 20px;box-sizing: border-box;border-radius: 5px; font-size: 17px;height: 24px;}
+
+.save_icon{background: url(../Images/filesave.png) no-repeat left 3px; margin: 0;padding: 2px 0 0 21px;}
+.can_icon{background: url(../Images/cancal.png) no-repeat left 3px; margin: 0;padding: 2px 0 0 21px;}
+
+.mask{position: absolute;background: #00000080; width: 100%; height: 200%; z-index: 10000;display: none;}
+
+.alert{width: 200px; height: 100px; background: red;}
+.ph_pop{ height: auto; background: url(../Images/grey.png) repeat 50% 50%; margin: 7% auto; z-index: 100002;
+	 top: 80px; left: 330px; border-radius: 10px;padding: 6px;box-sizing: border-box; display:none;}
+	 .ph_title{width: 100%;margin-bottom: 5px; font-weight: 700; margin-left: 6px;}
+	 .ph_title_icon{    padding: 0px 0px 0px 20px;background: url(../Images/filesave.png) no-repeat scroll 2px 2px;color: white; 
+	 	font-size: 13px; box-sizing: border-box;}
+	 	.chat_icon{padding: 0px 0px 0px 20px;background: url(../Images/info.png) no-repeat scroll 2px 2px;color: white; 
+	 	font-size: 13px; box-sizing: border-box;}
+	 .ph_content{ height: auto;    background: #f6e8bc url(../Images/smlpopconbgtop.jpg) repeat-x left top; 
+	 	box-sizing: border-box; padding: 10px 20px;}
+	 	.text{font-size: 14px;}
+.ph_btns{margin: 10px;}
+	 	.ph_can,.ph_next,.ph_back{text-decoration: none; color: black; padding: 5px 20px;box-sizing: 
+	 		border-box;border-radius: 5px;    border: 1px solid #D19405;    
+	 		background: url(../Images/dark.png) repeat-x 50% 50%; }
+	 		.ph_can_icon{background: url(../Images/cancal.png) no-repeat left 3px;    margin: 0;padding: 2px 0 0 21px; }
+
+.ph_next_icon{background: url(../Images/ok.png) no-repeat left 3px;   margin: 0;padding: 2px 0 0 21px; }	
+.ph_back_icon{background: url(../Images/back.png) no-repeat left 3px;   margin: 0;padding: 2px 0 0 21px;} 	
+.ph_btns{margin: 20px 0px;}	
+.ph_content{padding-left: 30px; height: auto;}

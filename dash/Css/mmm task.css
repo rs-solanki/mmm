@@ -1,0 +1,120 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;background-color: #feeebd;}
+
+.body{margin: 53px 0px 0px 0px; padding: 0; width: 100%; height: auto; background-color: #feeebd;  box-sizing: border-box;} 
+
+.title_bar{padding: 3px 6px; box-sizing: border-box;  background: url(../Images/grey.png) repeat 50% 50%;}
+
+.haeding_MMM_extra{
+    width: 30%;
+    height:auto;
+    padding: 0px 0px 0px 10px;
+    box-sizing: border-box;
+}
+.haeding_MMM_extra h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #2727e0;
+    text-align: left;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.btn_links{
+    width: 70%;
+    height: auto;
+     /*padding: 20px 0px 0px 700px;*/
+     padding: 20px; box-sizing: border-box;
+}
+
+#web_task_achiver{
+    margin:0px 30px 0px 0px;
+    padding: 6px 10px;
+    /*float: left;*/
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000a8;
+    text-decoration: none;
+    line-height: 18px;
+    background: url(../Images/dark.png) repeat-x left center; 
+    border-radius: 5px;
+}
+
+#timer_back{
+    margin:0px 30px 0px 0px;
+    padding: 6px 10px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 18px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+        border: 1px solid #c18119;
+}
+#web_task_achiver:hover{
+     background: url(../Images/dark.png) repeat-x left center; 
+    
+}
+
+.web_icon{
+    margin: 0;
+    padding: 2px 0 0 21px;
+    background: url(../Images/news.png) no-repeat left 0px;
+    
+}
+.Introduse{
+     margin: 0;
+    padding: 2px 0 0 21px;
+    background: url(../Images/question.png) no-repeat left 0px;
+}
+.para_heading{
+   padding: 20px;
+   box-sizing: border-box;
+    
+}
+.how_task{
+    width: 90%;
+    height:auto;
+    margin: 10px auto;
+}
+.how_task p{
+    font-size: 19px;
+}
+.acpt_rej_task{
+    width: 80%;
+    height: 100px;
+    border: 2px solid  #c18119;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    
+}
+#url_add{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid  #c18119;
+}
+.task_btn{
+    text-decoration: none;
+    padding: 5px 10px;
+    background: url(../Images/dark.png) no-repeat center;
+    color: #000000c7;
+    border-radius: 5px;
+     border: 1px solid  #c18119;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+.send{
+        padding: 6px 5px 6px 25px;
+    background: #fdd44a url(../Images/ok.png) no-repeat 6px 6px;
+    
+}
+.rejec{
+         padding: 6px 5px 6px 25px;
+    background: #fdd44a url(../Images/cancal.png) no-repeat 6px 6px;
+    
+}

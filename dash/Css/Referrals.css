@@ -1,0 +1,82 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;background-color: #feeebd; }
+
+.body{margin: 53px 0px; padding: 0; width: 100%; height: auto; background-color: #feeebd;  box-sizing: border-box;} 
+
+.title_bar{padding: 3px 6px; box-sizing: border-box;  background: url(../Images/grey.png) repeat 50% 50%;}
+.tool_bar{ box-sizing: border-box;    background: #efefef;padding: 10px 10px;border-bottom: 1px solid #ccc; height: auto;}
+
+#tex {width: 300px;box-shadow: -4px -3px 3px 0.5px #8E846B;
+    border: 1px solid #8E846B;margin-left: 15px;margin-top: 5px;height: 18px;}
+
+.hreflink {float: right;margin-right: 30px;color: #444;
+    background: url(../Images/dark.png) repeat-x 50% 50%;font-size: 12px;text-decoration: none;display: inline-block;zoom: 1;
+    height: 24px;padding-right: 18px;cursor: pointer;outline: none;border-radius: 8px;border: 1px solid #D19405;}    
+
+.hreflink span {display: inline-block;padding: 2px 0px 4px 18px;line-height: 16px;height: 16px;border-radius: 8px;}
+.close_ref_box{color: #444;
+    background: url(../Images/dark.png) repeat-x 50% 50%;font-size: 12px;text-decoration: none;display: inline-block;zoom: 1;
+    height: 24px;padding-right: 18px;cursor: pointer;outline: none;border-radius: 8px;border: 1px solid #D19405;}
+    .close_ref_box span{display: inline-block;padding: 2px 0px 4px 18px;line-height: 16px;height: 16px;border-radius: 8px;}
+.con_ref_link{position: fixed;width: 100%; height: 100%; background: black; z-index: 10;}
+
+.ref_box{width: 700px;background-color: #fff;border: 1px solid #8E846B;border-radius: 5px;height: 105px;z-index: 10000;padding: 5px;
+    border: 1px solid #8E846B;border-radius: 5px;display: block;background: url(../Images/grey.png) repeat 50% 50%;}
+
+
+    .heading_table th{
+          background-color: #faf5e8;
+    border-bottom: 1px solid #f5c525;
+    border-right: 1px dotted #f5c525;
+    margin: -10px;
+        border-collapse:collapse;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+.heading_table td{border: 1px dotted gold;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;}
+
+    /*Pagination*/
+    .pagination ul{list-style: none;}
+    .pagination ul li{margin: 0;padding: 0 5px;float: left;list-style-type: none;
+    background: url(../Images/pagi_seprator.png) no-repeat right top;height: 24px;vertical-align: middle;}
+
+    .pagination ul li a {width: 28px;height: 26px;display: inline-block;}
+    .pagination ul li a.pleftfull span {background: url(../Images/pagi_left.png) no-repeat center center;
+    width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+    .pagination ul li a.pleft span {
+    background: url(../Images/pagi_left.png) no-repeat center center;
+width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+.pagination ul .last {margin: 0;padding: 0 5px;float: left;list-style-type: none;background: none;}
+
+.pagination ul li a.prightfull span {
+    background: url(../Images/pagi_right.png) no-repeat center center;
+   width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}
+
+ .pagination ul li a.pright span {
+    background: url(../Images/pagi_right.png) no-repeat center center;
+    width: 9px;height: 5px;margin: 11px 0 0 10px;float: left;}  
+
+    .pagination a.yellow {background: #f9d765;margin-left: 180px;padding: 6px;text-decoration: none;
+        color: #000;border: 2px solid #c98f06;border-radius: 10px;}
+
+           .yellow {
+    background: #f9d765;
+    /*margin-left: 180px;*/
+    padding: 6px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    border: 2px solid #c98f06;
+    border-radius: 10px;
+}
+/*end pagination*/

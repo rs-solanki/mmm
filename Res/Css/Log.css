@@ -1,0 +1,47 @@
+body{ margin: 0; padding: 0;background: #F2E5D2;font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;}
+
+.box{max-width:400px; height: auto;background-color: white;margin:10% auto; padding: 20px 20px; border: 4px solid #CC8822; box-sizing: border-box; border-radius: 15px;}
+#mask{width: 100%; height: 100%; background: #0000007a; position: absolute; z-index: 100;top: 0;display: none;}
+
+.line{margin-top: 10px;}
+.line label {    float: left;width: 135px;text-align: right;font-size: 16px;margin: 0 10px 0 0;line-height: 21px;}
+
+    .line select{    background: #ccc;border: 1px solid #ccc;border-radius: 4px;color: #666;font-size: 14px;padding: 1px;width: 194px;}
+
+.line input,#email{background: #ccc;border: 0;font-size: 13px;padding: 3px 7px;color: #666;border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-khtml-border-radius: 3px;width: 180px;}
+
+p { font-size: 11px;font-style: italic;color: #777;margin: 5px 25px 5px 145px;text-align: left;line-height: 12px;}
+
+#log{outline: none;box-shadow: 1px 1px 1px #946d3f;background: darkorange;border: 0;/*background: #000;*/color: #fff;font-size: 12px;
+/*border-radius: 4px;*/-webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;padding: 5px 20px;cursor: pointer;margin-top: 10px;}
+
+a{color: grey; }
+
+
+/*Get New Password*/
+.get_new{max-width:600px; height: auto;background-color: white;margin:10% auto; padding: 20px 80px; border: 4px solid #CC8822;
+ box-sizing: border-box; border-radius: 15px;position: absolute; top: 30px;right: 420px;z-index: 101;display: none;}
+
+#send,#cancel{    outline: none;box-shadow: 1px 1px 1px #946d3f;}
+
+.send{ margin: 10px 0px 0px 120px;    background: #7DC55A;    border: 0;/*background: #000;*/color: #fff;font-size: 12px;
+    border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;padding: 5px 20px;cursor: pointer}
+
+    .cancel{  background: #FF7362;border: 0;/*background: #000;*/color: #fff;font-size: 12px;border-radius: 4px;
+    -webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;padding: 5px 20px;cursor: pointer;}
+
+    /*Change Password*/
+
+    .change{max-width:600px; height: auto;background-color: white;margin:10% auto; padding: 20px 60px; border: 4px solid #CC8822;
+ box-sizing: border-box; border-radius: 15px;position: absolute; top: 30px;right: 420px;z-index: 101;display:none; }
+
+
+ .change div{margin-bottom: 10px;} .change label{width: 200px; float: left;text-align: right;font-size: 16px;margin: 0 10px 0 0;line-height: 21px;}
+ .Change_sen{margin: 10px 0px 0px 30px; background: darkorange; }
+ .Change_can{margin: 10px 0px 0px 100px;}
+
+ .Attention{max-width:800px; height: auto;background-color: white;margin:10% auto; padding: 20px 20px; border: 4px solid #CC8822;
+ box-sizing: border-box; border-radius: 15px;position: absolute; top: 60px;right: 300px;z-index: 101;display: none;}
+
+ .next{outline: none;box-shadow: 1px 1px 1px #946d3f;background: darkorange;border: 0;/*background: #000;*/color: #fff;font-size: 12px;
+/*border-radius: 4px;*/-webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;padding: 5px 20px;cursor: pointer;margin-top: 10px;}

@@ -1,0 +1,131 @@
+body{font-family: "Open Sans","Trebuchet ms","Helvetica CY","Nimbus Sans L",sans-serif;    background-color: #feeebd;}
+
+.body{margin: 53px 0px 0px 0px; padding: 0px 0px 10px 0px; width: 100%; height: auto; background-color: #feeebd;  box-sizing: border-box;} 
+
+.title_bar{padding: 3px 6px; box-sizing: border-box;  background: url(../Images/grey.png) repeat 50% 50%;}
+
+.haeding_MMM_extra{
+    width: 60%;
+    height:auto;
+    padding: 10px 0px 0px 10px;
+}
+.haeding_MMM_extra h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #2727e0;
+    text-align: left;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.btn_links{
+    width: 50%;
+    height: auto;
+     padding: 20px 0px 0px 700px;
+}
+
+#web_task_achiver{
+    margin:0px 30px 0px 0px;
+    padding: 6px 10px;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000a8;
+    text-decoration: none;
+    line-height: 18px;
+    background: url(../Images/dark.png) repeat-x left center; 
+    border-radius: 5px;
+}
+#web_task_achiver:hover{
+     background: url(../Images/dark.png) repeat-x left center; 
+    
+}
+
+.web_icon{
+    margin: 0;
+    padding: 2px 0 0 21px;
+    background: url(../Images/news.png) no-repeat left 0px;
+    
+}
+.Introduse{
+     margin: 0;
+    padding: 2px 0 0 21px;
+    background: url(../Images/question.png) no-repeat left 0px;
+}
+.para_heading{
+   padding: 20px;
+    
+}
+
+.task_box{
+    width: 70%;
+    height: auto;
+    background-color: #fbe7d759;
+    margin: 10px 170px;
+    border-radius: 10px;
+    border: 2px solid #c18119;
+    padding: 10px 20px;
+}
+#online_btn{
+    float: right; text-decoration: none; padding:0px 30px 0px 5px;; color: white;  border-radius: 8px;
+     background: green url(../Images/circle%20white.png) no-repeat 70px 2px;
+/*    background: green;*/
+    background-size: 15px 15px;
+    
+}
+.more_btn{
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.btns{
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color: green;
+    color: white;
+/*    font-style: italic;*/
+    border-radius: 10px;
+    
+}
+.pro{
+    background-color: #ff9200;
+    
+}
+.com{
+    background-color: green;
+}
+.rej{
+    background-color: red;
+}
+.all{
+    background-color: white;
+    color: black;
+}
+.task{
+    width: 95%;
+    height: auto;
+    background-color: #fbe7d759;
+     border: 2px solid #c18119;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0px;
+    position: relative;
+}
+.re{
+    position: absolute;
+    bottom: 20px; right: 20px;
+    font-size: 14px;
+}
+#rate{
+    color: black;
+    font-weight: 600;
+    display: none;
+}
+#waiting_task{
+    padding: 5px 30px 5px 5px;
+    background:white url(../Images/refresh.png) no-repeat 300px 3px;
+    background-size: 15px 20px;
+    border-radius: 5px;
+    color: blue;
+}

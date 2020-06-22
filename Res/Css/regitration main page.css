@@ -1,0 +1,76 @@
+.article {
+    font-size: 13px;
+} 
+
+
+.other_country {
+    background: #E0E0E0;
+    display: inline-block;
+    margin: 0 0 15px 0;
+}
+p {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.registration {
+    background: #EFEFEF;
+    padding: 30px;
+    font-size: 13px;
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+form{
+    margin: 0px;
+}
+button, input, select, textarea {
+    color: #222;
+}
+.registration .line {
+    clear: both;
+    padding: 0 0 20px 0;
+}
+.registration{
+  
+}
+.registration .line .left {
+    float: left;
+    width: 300px;
+}
+.registration .line .right {
+    padding: 0 0 0 350px;
+    max-width: 400px;
+}
+.registration .line .left label {
+    font-weight: bold;
+}
+ .registration .line .left p {
+    font-size: 12px;
+    font-style: italic;
+    color: #8c8c8c;
+    line-height: 16px;
+}
+.registration .line .right input {
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    background: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.registration .line .right input[type="checkbox"] {
+    width: auto;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0 5px 0 0;
+    vertical-align: -2px;
+}
+ .registration .line .right button {
+    background: #2E962E;
+    border: 1px solid #2E962E;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
